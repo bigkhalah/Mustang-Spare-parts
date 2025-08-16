@@ -1,0 +1,17 @@
+# Mustang Spare Parts Website
+
+This repository contains the source code for the **Mustang Spare Parts** website.
+
+## Files
+
+- `index.html` → Main HTML page of the site  
+- `style.css` → Website styling  
+- `mustang_bg.png` → Background image  
+
+## How to Run
+1. Clone this repository to your computer.  
+2. Make sure `index.html`, `style.css`, and `mustang_bg.png` are in the same folder.  
+3. Open `index.html` in your browser.  
+
+## Author
+Created by **bigkhalah** 🚗
