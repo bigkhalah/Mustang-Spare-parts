@@ -2,98 +2,137 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mustang Spare Parts - Shop</title>
-  <link rel="stylesheet" href="assets/css/style.css">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-      background-color: #f8f8f8;
-    }
-    h1 {
-      text-align: center;
-      color: #222;
-    }
-    .products {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
-    }
-    .product {
-      background: #fff;
-      border: 1px solid #ddd;
-      border-radius: 8px;
-      padding: 16px;
-      width: 300px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      text-align: center;
-    }
-    .product img {
-      max-width: 100%;
-      border-radius: 6px;
-    }
-    .product h3 {
-      margin-top: 10px;
-      color: #333;
-    }
-    .product p {
-      font-size: 14px;
-      color: #555;
-      line-height: 1.5;
-      text-align: left;
-    }
-    .product a {
-      display: inline-block;
-      margin-top: 10px;
-      padding: 8px 12px;
-      background: #007bff;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-    }
-    .product a:hover {
-      background: #0056b3;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mustang Parts Shop</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
+  <div class="container my-5">
+    <h1 class="text-center mb-4">Mustang Parts Shop</h1>
+    <div class="row g-4">
 
-  <h1>Available Mustang Parts</h1>
+      <!-- Product 1 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="images/gt500_supercharger.jpg" class="card-img-top" alt="2021 Ford Mustang GT500 Supercharger">
+          <div class="card-body">
+            <h5 class="card-title">2021 Ford Mustang GT500 / GT350 Coyote Voodoo 5.2 5.0 Turbo Supercharger Unit</h5>
+            <p class="card-text">Asking $1,100. Message us for more info.</p>
+          </div>
+        </div>
+      </div>
 
-  <div class="products">
+      <!-- Product 2 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="images/whipple_kit.jpg" class="card-img-top" alt="FRPP 2.9 Whipple Kit">
+          <div class="card-body">
+            <h5 class="card-title">Complete, used FRPP 2.9 Whipple Kit</h5>
+            <p class="card-text">Comes with 72lbs injectors, kit has 1.8k miles. Asking $3,200.</p>
+          </div>
+        </div>
+      </div>
 
-    <!-- Product 1 -->
-    <div class="product">
-      <img src="images/wheels.jpg" alt="Performance Pack Wheels">
-      <h3>Performance Pack Wheels</h3>
-      <p>
-        Black, only 1k miles, in PERFECT condition. <br>
-        Does not include sensors (swapped to new wheels). <br>
-        Includes black OEM Ford lug nuts. <br>
-        Location: Lancaster, PA <br>
-        <strong>Price: $2000</strong>
-      </p>
-      <a href="https://www.instagram.com/p/XXXXXXXX/" target="_blank">View on Instagram</a>
+      <!-- Product 3 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="images/mustang_frontclip.jpg" class="card-img-top" alt="Mustang Front Clip">
+          <div class="card-body">
+            <h5 class="card-title">13–14 Mustang Front Clip</h5>
+            <p class="card-text">$2,700 shipped.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="images/kennebell_whipple.jpg" class="card-img-top" alt="Kenne Bell / Whipple Supercharger Kit">
+          <div class="card-body">
+            <h5 class="card-title">11–14 Mustang GT 5.0 Kenne Bell / Whipple Supercharger Kit</h5>
+            <p class="card-text">Complete kit, blower 1,580 miles, everything else brand new. Asking $3,200 + shipping.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 5 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="images/raptor_wheels1.jpg" class="card-img-top" alt="Ford F150 Raptor OEM Wheels and Tires">
+          <div class="card-body">
+            <h5 class="card-title">17" Ford F150 Raptor OEM Wheels & Tires</h5>
+            <p class="card-text">Off 2020 Ford Raptor. Tires 315/70/17 BFG K02 A/T. $800 shipped.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 6 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="images/raptor_beadlock.jpg" class="card-img-top" alt="Ford Raptor Beadlock Wheels">
+          <div class="card-body">
+            <h5 class="card-title">Ford Raptor Beadlock Wheels</h5>
+            <p class="card-text">Forged beadlock capable wheels, set of 5. $1,300 shipped.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 7 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="images/mustang_gt2021.jpg" class="card-img-top" alt="2021 Ford Mustang GT">
+          <div class="card-body">
+            <h5 class="card-title">2021 Ford Mustang GT Performance Pack</h5>
+            <p class="card-text">15k miles, 6-speed manual, premium + PP package. $35,499.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 8 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="images/vmp_supercharger.jpg" class="card-img-top" alt="VMP 2 Gen Supercharger Kit">
+          <div class="card-body">
+            <h5 class="card-title">VMP 2 Gen Supercharger Kit</h5>
+            <p class="card-text">Complete kit with extras, 6k miles, includes billet fuel rails, triple pass HX, ILT catch can. $3,300.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 9 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="images/saleen_supercharger.jpg" class="card-img-top" alt="1997 Mustang GT Saleen Supercharger">
+          <div class="card-body">
+            <h5 class="card-title">1997 Ford Mustang GT 4.6L Saleen Supercharger</h5>
+            <p class="card-text">Asking $4,200.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 10 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="images/f150_tailgate.jpg" class="card-img-top" alt="2021-2022 Ford F150 Tail Gate">
+          <div class="card-body">
+            <h5 class="card-title">2021–2022 Ford F150 Tail Gate</h5>
+            <p class="card-text">Complete. $1,499.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 11 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="images/edelbrock_blower.jpg" class="card-img-top" alt="471 Supercharger with Edelbrock Intake">
+          <div class="card-body">
+            <h5 class="card-title">471 Supercharger / Edelbrock Intake Manifold</h5>
+            <p class="card-text">With Edelbrock 800 carb, pulleys, blower belt. $4,500 (Promo: $3,500 with free shipping).</p>
+          </div>
+        </div>
+      </div>
+
     </div>
-
-    <!-- Copy this block for new products -->
-    <!--
-    <div class="product">
-      <img src="images/NEW_IMAGE.jpg" alt="Product Name">
-      <h3>Product Name</h3>
-      <p>
-        Short description of the part <br>
-        Condition / details <br>
-        Location: Your city <br>
-        <strong>Price: $$$</strong>
-      </p>
-      <a href="https://www.instagram.com/p/NEWPOSTID/" target="_blank">View on Instagram</a>
-    </div>
-    -->
-
   </div>
-
 </body>
 </html>
