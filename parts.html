@@ -3,19 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mustang Spare Parts</title>
+  <title>Mustang Spare Parts - Gallery</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       background: #111;
       color: #fff;
-      text-align: center;
       margin: 0;
       padding: 0;
+      text-align: center;
     }
-    h1 {
-      margin: 20px 0;
+    header {
+      background: #000;
+      padding: 20px;
+    }
+    header h1 {
       color: #ffcc00;
+      margin: 0;
     }
     .gallery {
       display: grid;
@@ -25,29 +29,42 @@
     }
     .gallery-item {
       background: #222;
+      padding: 15px;
       border-radius: 8px;
-      padding: 10px;
     }
     .gallery-item img {
       width: 100%;
-      height: auto;
       border-radius: 5px;
     }
-    .caption {
+    .gallery-item h3 {
       margin-top: 10px;
-      font-size: 16px;
       color: #ffcc00;
     }
-    footer {
+    .btn {
+      display: inline-block;
+      background: #ffcc00;
+      color: #000;
+      padding: 12px 25px;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 5px;
+      text-decoration: none;
       margin: 30px 0;
-      padding: 10px;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #ffaa00;
+      transform: scale(1.05);
+    }
+    footer {
       background: #000;
+      padding: 20px;
+      margin-top: 20px;
       color: #bbb;
     }
     footer a {
       color: #ffcc00;
       text-decoration: none;
-      margin: 0 10px;
     }
     footer a:hover {
       text-decoration: underline;
@@ -55,50 +72,57 @@
   </style>
 </head>
 <body>
-  <h1>Mustang Spare Parts</h1>
+  <header>
+    <h1>Mustang Spare Parts Gallery</h1>
+  </header>
 
-  <div class="gallery">
-    <div class="gallery-item">
-      <img src="images/mustang_alloy_rims.jpg" alt="Alloy Rims">
-      <div class="caption">Alloy Rims</div>
+  <main>
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="images/mustang_brake_calipers.jpg" alt="Mustang Brake Calipers">
+        <h3>Brake Calipers</h3>
+      </div>
+      <div class="gallery-item">
+        <img src="images/mustang_valve_covers.jpg" alt="Mustang Valve Covers">
+        <h3>Valve Covers</h3>
+      </div>
+      <div class="gallery-item">
+        <img src="images/mustang_rear_spoiler.jpg" alt="Mustang Rear Spoiler">
+        <h3>Rear Spoiler</h3>
+      </div>
+      <div class="gallery-item">
+        <img src="images/mustang_engine_block.jpg" alt="Mustang Engine Block">
+        <h3>Engine Block</h3>
+      </div>
+      <div class="gallery-item">
+        <img src="images/mustang_alloy_rims.jpg" alt="Mustang Alloy Rims">
+        <h3>Alloy Rims</h3>
+      </div>
+      <div class="gallery-item">
+        <img src="images/mustang_hood_scoop.jpg" alt="Mustang Hood Scoop">
+        <h3>Hood Scoop</h3>
+      </div>
+      <div class="gallery-item">
+        <img src="images/mustang_front_bumper.jpg" alt="Mustang Front Bumper">
+        <h3>Front Bumper</h3>
+      </div>
+      <div class="gallery-item">
+        <img src="images/mustang_supercharger.jpg" alt="Mustang Supercharger">
+        <h3>Supercharger</h3>
+      </div>
+      <div class="gallery-item">
+        <img src="images/mustang_exhaust_system.jpg" alt="Mustang Exhaust System">
+        <h3>Exhaust System</h3>
+      </div>
+      <div class="gallery-item">
+        <img src="images/mustang_transmission.jpg" alt="Mustang Transmission">
+        <h3>Transmission</h3>
+      </div>
     </div>
-    <div class="gallery-item">
-      <img src="images/mustang_brake_calipers.jpg" alt="Brake Calipers">
-      <div class="caption">Brake Calipers</div>
-    </div>
-    <div class="gallery-item">
-      <img src="images/mustang_engine_block.jpg" alt="Engine Block">
-      <div class="caption">Engine Block</div>
-    </div>
-    <div class="gallery-item">
-      <img src="images/mustang_exhaust_system.jpg" alt="Exhaust System">
-      <div class="caption">Exhaust System</div>
-    </div>
-    <div class="gallery-item">
-      <img src="images/mustang_front_bumper.jpg" alt="Front Bumper">
-      <div class="caption">Front Bumper</div>
-    </div>
-    <div class="gallery-item">
-      <img src="images/mustang_hood_scoop.jpg" alt="Hood Scoop">
-      <div class="caption">Hood Scoop</div>
-    </div>
-    <div class="gallery-item">
-      <img src="images/mustang_rear_spoiler.jpg" alt="Rear Spoiler">
-      <div class="caption">Rear Spoiler</div>
-    </div>
-    <div class="gallery-item">
-      <img src="images/mustang_supercharger.jpg" alt="Supercharger">
-      <div class="caption">Supercharger</div>
-    </div>
-    <div class="gallery-item">
-      <img src="images/mustang_transmission.jpg" alt="Transmission">
-      <div class="caption">Transmission</div>
-    </div>
-    <div class="gallery-item">
-      <img src="images/mustang_valve_covers.jpg" alt="Valve Covers">
-      <div class="caption">Valve Covers</div>
-    </div>
-  </div>
+
+    <!-- Back to Home button -->
+    <a href="index.html" class="btn">⬅ Back to Home</a>
+  </main>
 
   <footer>
     <p>Contact me: 
