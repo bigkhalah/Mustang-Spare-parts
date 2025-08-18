@@ -1,83 +1,101 @@
-width=device-width, initial-scale=1">
-  <title>Parts - Mustang Spare Parts</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mustang Spare Parts</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Mustang Spare Parts</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="parts.html">Parts</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container">
-    <a class="navbar-brand" href="index.html">Mustang Spare Parts</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-        <li class="nav-item"><a class="nav-link active" href="parts.html">Parts</a></li>
-        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-      </ul>
+  <!-- Parts Grid -->
+  <div class="container my-5">
+    <h1 class="mb-4">Available Parts</h1>
+    <div class="row g-4">
+
+      <!-- Product 1 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="images/supercharger_intercooler_manifold.jpeg" class="card-img-top" alt="GT500 Supercharger">
+          <div class="card-body">
+            <h5 class="card-title">2021 Ford Mustang GT500 Unit</h5>
+            <p class="card-text">GT350 Coyote Voodoo 5.2 5.0 Turbo Supercharger.<br>Price: $1,100</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="images/F0D15199-EEDC-497F-88B2-0ED3FE89178F.jpeg" class="card-img-top" alt="FRPP Whipple Kit">
+          <div class="card-body">
+            <h5 class="card-title">FRPP 2.9 Whipple Kit</h5>
+            <p class="card-text">Complete used kit with 72lbs injectors, 1.8k miles.<br>Price: $3,200</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="images/front_clip.jpeg" class="card-img-top" alt="Mustang Front Clip">
+          <div class="card-body">
+            <h5 class="card-title">13–14 Mustang Front Clip</h5>
+            <p class="card-text">Complete front clip.<br>Price: $2,700 shipped</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="images/kenne_bell_whipple_hybrid.jpeg" class="card-img-top" alt="Mustang GT Supercharger Kit">
+          <div class="card-body">
+            <h5 class="card-title">11–14 Mustang GT Supercharger Kit</h5>
+            <p class="card-text">Kenne Bell/Whipple hybrid kit, complete with hardware & injectors.<br>Price: $3,200 + Shipping</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 5 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="images/ford_raptor_oem_wheels.jpeg" class="card-img-top" alt="Ford Raptor Wheels">
+          <div class="card-body">
+            <h5 class="card-title">17" Ford Raptor OEM Wheels</h5>
+            <p class="card-text">Set with tires (315/70/17 BFG K02).<br>Price: $800 shipped</p>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
-</nav>
 
-<!-- Parts Grid -->
-<main class="container my-5">
-  <h1 class="mb-4">Available Parts</h1>
-  <div class="row g-4">
+  <!-- Contact Section -->
+  <footer class="bg-dark text-light text-center py-4 mt-5">
+    <p>Contact me:</p>
+    <p>Email: <a href="mailto:bigkhalah@gmail.com" class="text-info">bigkhalah@gmail.com</a></p>
+    <p>Instagram: <a href="https://www.instagram.com/mustang._.spare._.parts_?igsh=MTVpZWdvazVqOWo4dg==" class="text-info" target="_blank">@mustang._.spare._.parts_</a></p>
+    <p class="mb-0">&copy; 2025 Mustang Spare Parts</p>
+  </footer>
 
-    <!-- Product 1 -->
-    <div class="col-md-4">
-      <div class="card h-100">
-        <img src="images/gt500_unit.jpg" class="card-img-top" alt="2021 Ford Mustang GT500 Unit">
-        <div class="card-body">
-          <h5 class="card-title">2021 Ford Mustang GT500 Unit</h5>
-          <p class="card-text">Gt350 Coyote Voodoo 5.2 5.0 Turbo Supercharger.<br>Price: $1,100</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Product 2 -->
-    <div class="col-md-4">
-      <div class="card h-100">
-        <img src="images/whipple_kit.jpg" class="card-img-top" alt="FRPP 2.9 Whipple Kit">
-        <div class="card-body">
-          <h5 class="card-title">FRPP 2.9 Whipple Kit</h5>
-          <p class="card-text">Complete used kit with 72lbs injectors, 1.8k miles.<br>Price: $3,200</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Product 3 -->
-    <div class="col-md-4">
-      <div class="card h-100">
-        <img src="images/front_clip.jpg" class="card-img-top" alt="13-14 Mustang Front Clip">
-        <div class="card-body">
-          <h5 class="card-title">13-14 Mustang Front Clip</h5>
-          <p class="card-text">Complete front clip.<br>Price: $2,700 shipped</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Product 4 -->
-    <div class="col-md-4">
-      <div class="card h-100">
-        <img src="images/kennebell_whipple.jpg" class="card-img-top" alt="11-14 Mustang GT Supercharger Kit">
-        <div class="card-body">
-          <h5 class="card-title">11-14 Mustang GT Supercharger Kit</h5>
-          <p class="card-text">Kenne Bell/Whipple hybrid kit, complete with hardware & injectors.<br>Price: $3,200 + Shipping</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Product 5 -->
-    <div class="col-md-4">
-      <div class="card h-100">
-        <img src="images/raptor_wheels1.jpg" class="card-img-top" alt="17 inch Ford Raptor OEM Wheels">
-        <div class="card-body">
-          <h5 class="card-title">17" Ford Raptor OEM Wheels</h5>
-          <p class="card-text">Set with tires (315/70/17 BFG K02).<br>Price: $800 shipped</p>
-        </div>
-      </div>
-    </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
