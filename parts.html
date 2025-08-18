@@ -7,76 +7,103 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f4f4f4;
-      color: #333;
-    }
-    header {
       background: #111;
       color: #fff;
-      padding: 15px;
       text-align: center;
+      margin: 0;
+      padding: 0;
     }
     h1 {
-      margin: 0;
+      margin: 20px 0;
+      color: #ffcc00;
     }
     .gallery {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 15px;
+      gap: 20px;
       padding: 20px;
     }
-    .gallery img {
+    .gallery-item {
+      background: #222;
+      border-radius: 8px;
+      padding: 10px;
+    }
+    .gallery-item img {
       width: 100%;
       height: auto;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-      transition: transform 0.2s;
+      border-radius: 5px;
     }
-    .gallery img:hover {
-      transform: scale(1.05);
+    .caption {
+      margin-top: 10px;
+      font-size: 16px;
+      color: #ffcc00;
     }
     footer {
-      background: #111;
-      color: #fff;
-      text-align: center;
-      padding: 20px;
-      margin-top: 20px;
+      margin: 30px 0;
+      padding: 10px;
+      background: #000;
+      color: #bbb;
     }
     footer a {
-      color: #ff4500;
+      color: #ffcc00;
       text-decoration: none;
       margin: 0 10px;
-      font-weight: bold;
+    }
+    footer a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Mustang Spare Parts Gallery</h1>
-    <p>High-quality spare parts for your Mustang</p>
-  </header>
+  <h1>Mustang Spare Parts</h1>
 
-  <section class="gallery">
-    <img src="images/mustang_part1.jpg" alt="Mustang Part 1">
-    <img src="images/mustang_part2.jpg" alt="Mustang Part 2">
-    <img src="images/mustang_part3.jpg" alt="Mustang Part 3">
-    <img src="images/mustang_part4.jpg" alt="Mustang Part 4">
-    <img src="images/mustang_part5.jpg" alt="Mustang Part 5">
-    <img src="images/mustang_part6.jpg" alt="Mustang Part 6">
-    <img src="images/mustang_part7.jpg" alt="Mustang Part 7">
-    <img src="images/mustang_part8.jpg" alt="Mustang Part 8">
-    <img src="images/mustang_part9.jpg" alt="Mustang Part 9">
-    <img src="images/mustang_part10.jpg" alt="Mustang Part 10">
-  </section>
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="images/mustang_alloy_rims.jpg" alt="Alloy Rims">
+      <div class="caption">Alloy Rims</div>
+    </div>
+    <div class="gallery-item">
+      <img src="images/mustang_brake_calipers.jpg" alt="Brake Calipers">
+      <div class="caption">Brake Calipers</div>
+    </div>
+    <div class="gallery-item">
+      <img src="images/mustang_engine_block.jpg" alt="Engine Block">
+      <div class="caption">Engine Block</div>
+    </div>
+    <div class="gallery-item">
+      <img src="images/mustang_exhaust_system.jpg" alt="Exhaust System">
+      <div class="caption">Exhaust System</div>
+    </div>
+    <div class="gallery-item">
+      <img src="images/mustang_front_bumper.jpg" alt="Front Bumper">
+      <div class="caption">Front Bumper</div>
+    </div>
+    <div class="gallery-item">
+      <img src="images/mustang_hood_scoop.jpg" alt="Hood Scoop">
+      <div class="caption">Hood Scoop</div>
+    </div>
+    <div class="gallery-item">
+      <img src="images/mustang_rear_spoiler.jpg" alt="Rear Spoiler">
+      <div class="caption">Rear Spoiler</div>
+    </div>
+    <div class="gallery-item">
+      <img src="images/mustang_supercharger.jpg" alt="Supercharger">
+      <div class="caption">Supercharger</div>
+    </div>
+    <div class="gallery-item">
+      <img src="images/mustang_transmission.jpg" alt="Transmission">
+      <div class="caption">Transmission</div>
+    </div>
+    <div class="gallery-item">
+      <img src="images/mustang_valve_covers.jpg" alt="Valve Covers">
+      <div class="caption">Valve Covers</div>
+    </div>
+  </div>
 
   <footer>
-    <p>Contact us: <a href="mailto:bigkhalah@gmail.com">bigkhalah@gmail.com</a></p>
-    <p>Follow us on Instagram: 
-      <a href="https://www.instagram.com/mustang_spare_parts" target="_blank">
-        @mustang_spare_parts
-      </a>
+    <p>Contact me: 
+      <a href="mailto:bigkhalah@gmail.com">bigkhalah@gmail.com</a> | 
+      <a href="https://instagram.com/mustang__spare__parts" target="_blank">Instagram</a>
     </p>
   </footer>
 </body>
